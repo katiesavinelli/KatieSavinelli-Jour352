@@ -70,6 +70,48 @@ strong{
    margin-bottom: 0px;
 }
 
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right:0px;
+}
+
+.menu {
+  margin:0px;
+  padding:0px;
+  text-align:center;
+}
+
+.menu li {
+  display: inline;
+}
+
+#do {
+  margin-top:5px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;
+}
+
+#title {
+  font-weight: 600;
+  text-align:center;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color:#33485e;
+  text-transform:uppercase;
+}
+
+.top {
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+  margin-bottom:30px;
+}
+
 /*skills*/
 li{
   font-size:1em;
