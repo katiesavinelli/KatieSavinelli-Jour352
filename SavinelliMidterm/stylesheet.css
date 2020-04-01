@@ -1,0 +1,28 @@
+h1{
+  font-family: "Times New Roman", helvetica;
+  font-size: 30pt;
+}
+/*the subheadings go here*/
+h2{
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+p{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+#content{
+  width: 850px;
+  margin: 0 auto;
+
+#initial{
+  font-family:"times new roman";
+  font-size:14px;
+}
+
+#blockquote{
+  color: #FF0000;
+  border-left: 4px solid #ccc;
+}
