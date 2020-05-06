@@ -1,15 +1,22 @@
 .headline{
-  font-size:3em;
+  font-size:2em;
   font-weight:700;
   text-align:center;
   font-family: 'times new roman', sans-serif;
+  text-transform:uppercase;
+  padding-top:10px;
 }
 
 .byline{
   font-size:1em;
+  font-weight:700;
   text-transform:uppercase;
   font-family: 'times new roman', sans-serif;
   text-align:center;
+  color:#8b0000;
+  border-bottom: 1px solid#d2b48c;
+  margin-bottom:40px;
+  padding:15px 0 15px 0;
 }
 
 p{
@@ -18,9 +25,11 @@ p{
 }
 
 .chapterheadline{
-  font-size:2em;
-  font-weight:500;
+  font-size:1.5em;
+  font-weight:600;
   font-family: "monserrat", sans-serif;
+  color:#8b0000;
+  text-transform:uppercase;
 }
 
 .caption{
@@ -45,7 +54,7 @@ p{
 }
 
 .red{
-  color:#f23030;
+  color:#d2b48c;
 }
 
 /* splash area */
@@ -61,7 +70,7 @@ p{
 
 .overlay{
   position:absolute;
-  top:20%;
+  top:30%;
   width:100%;
   background:#000;
   opacity:.75;
@@ -83,13 +92,13 @@ p{
 /*quote*/
 .quote{
   font-family:"times new roman", sans-serif;
-  color:#f23030;
+  color:#8b0000;
   font-size:3em;
   font-weight:700;
   text-align:left;
   padding:15px 0 15px 0;
-  border-top: 1px solid #f23030;
-  border-bottom: 1px solid #f23030;
+  border-top: 1px solid #8b0000;
+  border-bottom: 1px solid #8b0000;
   margin-top:20px;
   margin-bottom:20px;
 }
@@ -100,6 +109,39 @@ p{
   font-weight:100;
   text-align:left;
   color:#000;
+}
+
+.sidebar{
+  font-family:"monserrat", sans-serif;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:15px 0 15px 0;
+  background:#d2b48c;
+  opacity:.8;
+  color:#000;
+  font-style: italic;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.title-sidebar{
+  color:#fff;
+  font-size:2em;
+  text-transform:uppercase;
+  font-family:"times new roman", sans-serif;
+}
+
+.bold{
+  font-weight:700;
+}
+
+.ending{
+  font-family: "monserrat", sans-serif;
+  color: #808080;
+  font-style: italic;
+  padding-bottom:30px;
+  padding-top:10px;
+  text-align:center;
 }
 
 @media(max-width:750px) {
